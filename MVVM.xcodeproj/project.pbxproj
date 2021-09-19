@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F4E066826F7270500BB0D84 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4E066726F7270500BB0D84 /* HeaderView.swift */; };
+		7F4E066A26F7271B00BB0D84 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F4E066926F7271B00BB0D84 /* HeaderView.xib */; };
+		7F4E066D26F7295B00BB0D84 /* HelperClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4E066C26F7295B00BB0D84 /* HelperClass.swift */; };
+		7F4E067126F72EBE00BB0D84 /* SongDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4E066F26F72EBE00BB0D84 /* SongDetailVC.swift */; };
+		7F4E067226F72EBE00BB0D84 /* SongDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F4E067026F72EBE00BB0D84 /* SongDetailVC.xib */; };
+		7F4E067626F737E200BB0D84 /* SongDetailViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4E067526F737E200BB0D84 /* SongDetailViewModal.swift */; };
 		7F64038326F63766009C864A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F64038226F63766009C864A /* AppDelegate.swift */; };
 		7F64038526F63766009C864A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F64038426F63766009C864A /* SceneDelegate.swift */; };
 		7F64038726F63766009C864A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F64038626F63766009C864A /* ViewController.swift */; };
@@ -26,6 +32,12 @@
 /* Begin PBXFileReference section */
 		164CB7D98E84B032FE11AA88 /* Pods-MVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM.release.xcconfig"; path = "Target Support Files/Pods-MVVM/Pods-MVVM.release.xcconfig"; sourceTree = "<group>"; };
 		6DA80B73E90FB3519199538E /* Pods-MVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM.debug.xcconfig"; path = "Target Support Files/Pods-MVVM/Pods-MVVM.debug.xcconfig"; sourceTree = "<group>"; };
+		7F4E066726F7270500BB0D84 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		7F4E066926F7271B00BB0D84 /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		7F4E066C26F7295B00BB0D84 /* HelperClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperClass.swift; sourceTree = "<group>"; };
+		7F4E066F26F72EBE00BB0D84 /* SongDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongDetailVC.swift; sourceTree = "<group>"; };
+		7F4E067026F72EBE00BB0D84 /* SongDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SongDetailVC.xib; sourceTree = "<group>"; };
+		7F4E067526F737E200BB0D84 /* SongDetailViewModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongDetailViewModal.swift; sourceTree = "<group>"; };
 		7F64037F26F63766009C864A /* MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F64038226F63766009C864A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F64038426F63766009C864A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +77,49 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		7F4E066626F726E400BB0D84 /* Header View */ = {
+			isa = PBXGroup;
+			children = (
+				7F4E066726F7270500BB0D84 /* HeaderView.swift */,
+				7F4E066926F7271B00BB0D84 /* HeaderView.xib */,
+			);
+			path = "Header View";
+			sourceTree = "<group>";
+		};
+		7F4E066B26F7291500BB0D84 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				7F4E066C26F7295B00BB0D84 /* HelperClass.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		7F4E066E26F72E8B00BB0D84 /* SongDetailVC */ = {
+			isa = PBXGroup;
+			children = (
+				7F4E066F26F72EBE00BB0D84 /* SongDetailVC.swift */,
+				7F4E067026F72EBE00BB0D84 /* SongDetailVC.xib */,
+			);
+			path = SongDetailVC;
+			sourceTree = "<group>";
+		};
+		7F4E067326F72ECB00BB0D84 /* SongVC */ = {
+			isa = PBXGroup;
+			children = (
+				7F64039726F63863009C864A /* SongsVC.swift */,
+				7F64039826F63863009C864A /* SongsVC.xib */,
+			);
+			path = SongVC;
+			sourceTree = "<group>";
+		};
+		7F4E067426F737C800BB0D84 /* SongDetail */ = {
+			isa = PBXGroup;
+			children = (
+				7F4E067526F737E200BB0D84 /* SongDetailViewModal.swift */,
+			);
+			path = SongDetail;
+			sourceTree = "<group>";
+		};
 		7F64037626F63766009C864A = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +141,7 @@
 		7F64038126F63766009C864A /* MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				7F4E066B26F7291500BB0D84 /* Helper */,
 				7F64039E26F63A25009C864A /* Network */,
 				7F64039D26F63A1E009C864A /* View */,
 				7F64039C26F63A17009C864A /* Modal */,
@@ -103,8 +159,8 @@
 		7F64039626F6384A009C864A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				7F64039726F63863009C864A /* SongsVC.swift */,
-				7F64039826F63863009C864A /* SongsVC.xib */,
+				7F4E066E26F72E8B00BB0D84 /* SongDetailVC */,
+				7F4E067326F72ECB00BB0D84 /* SongVC */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -112,6 +168,7 @@
 		7F64039B26F63A0C009C864A /* View Modal */ = {
 			isa = PBXGroup;
 			children = (
+				7F4E067426F737C800BB0D84 /* SongDetail */,
 				7F6403AA26F64F63009C864A /* Songs */,
 			);
 			path = "View Modal";
@@ -128,6 +185,7 @@
 		7F64039D26F63A1E009C864A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7F4E066626F726E400BB0D84 /* Header View */,
 				7F64039626F6384A009C864A /* Controller */,
 				7F64039F26F63A6C009C864A /* CollectViewCell */,
 			);
@@ -227,7 +285,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F4E067226F72EBE00BB0D84 /* SongDetailVC.xib in Resources */,
 				7F64039A26F63863009C864A /* SongsVC.xib in Resources */,
+				7F4E066A26F7271B00BB0D84 /* HeaderView.xib in Resources */,
 				7F64038F26F63768009C864A /* LaunchScreen.storyboard in Resources */,
 				7F64038C26F63768009C864A /* Assets.xcassets in Resources */,
 				7F6403A326F63ABA009C864A /* SongCVCell.xib in Resources */,
@@ -284,11 +344,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F6403AC26F65155009C864A /* Api_Url.swift in Sources */,
+				7F4E067626F737E200BB0D84 /* SongDetailViewModal.swift in Sources */,
 				7F6403A926F640DE009C864A /* API_Manager.swift in Sources */,
 				7F6403A726F63BE9009C864A /* SongsModal.swift in Sources */,
 				7F64038726F63766009C864A /* ViewController.swift in Sources */,
 				7F64038326F63766009C864A /* AppDelegate.swift in Sources */,
+				7F4E066826F7270500BB0D84 /* HeaderView.swift in Sources */,
+				7F4E066D26F7295B00BB0D84 /* HelperClass.swift in Sources */,
 				7F64038526F63766009C864A /* SceneDelegate.swift in Sources */,
+				7F4E067126F72EBE00BB0D84 /* SongDetailVC.swift in Sources */,
 				7F6403A526F63BC9009C864A /* SongsViewModal.swift in Sources */,
 				7F64039926F63863009C864A /* SongsVC.swift in Sources */,
 				7F6403A226F63ABA009C864A /* SongCVCell.swift in Sources */,

@@ -4,6 +4,7 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -29,7 +30,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.5036133377262253" blue="0.5699148340629181" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" systemColor="systemGray4Color"/>
                         <constraints>
                             <constraint firstItem="yRq-as-p2h" firstAttribute="leading" secondItem="eBb-ee-DAn" secondAttribute="leading" constant="10" id="BCD-Mt-iax"/>
                             <constraint firstItem="yRq-as-p2h" firstAttribute="top" secondItem="eBb-ee-DAn" secondAttribute="top" constant="10" id="Ip4-Yd-dnA"/>
@@ -57,4 +58,9 @@
             <point key="canvasLocation" x="72.463768115942031" y="151.67410714285714"/>
         </collectionViewCell>
     </objects>
+    <resources>
+        <systemColor name="systemGray4Color">
+            <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>

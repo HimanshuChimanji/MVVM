@@ -11,6 +11,11 @@ class SongsViewModal: NSObject {
     static let instance = SongsViewModal()
     var songList = [SongsStruct]()
     
+}
+
+// MARK:- Api's
+extension SongsViewModal {
+    
     func callAPI(vc:UIViewController, completion: @escaping (Bool) -> Void) {
         API_Manager.instance.get(API_URL.songUrl, type: SongsStruct.self, viewController: vc) { response, errorMessage in
             
