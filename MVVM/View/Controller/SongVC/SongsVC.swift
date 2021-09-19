@@ -43,9 +43,7 @@ extension SongsVC: UICollectionViewDataSource, UICollectionViewDelegate {
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-//        let songDetail: SongDetailVC = SongDetailVC(nibName: "SongDetailVC", bundle: nil)
         let songDetail = viewModal.songList[indexPath.row]
-//        songDetail()
         self.navigationController?.pushViewController(SongDetailVC.init(val: songDetail), animated: false)
         
     }
